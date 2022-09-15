@@ -32,9 +32,7 @@ public class GeneradorGatos : MonoBehaviour {
           }
 
           if (gato != null) {
-
-               StartCoroutine (spawnNPC (1, gato, false)); //un solo gato al cabo de 1 segundo
-
+               //StartCoroutine (spawnNPC (1, gato, false)); //un solo gato al cabo de 1 segundo
                StartCoroutine (spawnNPC (gatoRespawnTime, gato, true));
           } else {
                Debug.Log ("ERROR: Debe asignar un prefab de gato al Generador de Gatos");
@@ -56,10 +54,13 @@ public class GeneradorGatos : MonoBehaviour {
                     Transform puntoNacimiento = listaPuntoNacimiento[indice];
                     Transform puntoFinal = listaPuntoFinal[indice];
                     GameObject nuevoNPC = Instantiate (npc, puntoNacimiento.position, puntoNacimiento.rotation);
+                    //TODO: Crear clase para el Controlador del gato
                     nuevoNPC.GetComponent<GatoControlador> ().setPuntos (puntoNacimiento, puntoFinal);
                     nuevoNPC.GetComponent<GatoControlador> ().iniciar = true;
                }
 
+          } else {
+               Debug.Log("Demasiados gatos vivos");
           }
 
           if (repetir) StartCoroutine (spawnNPC (intervalo, npc, true));

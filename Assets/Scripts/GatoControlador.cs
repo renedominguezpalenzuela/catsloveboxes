@@ -1,35 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class GatoControlador : MonoBehaviour {
+
+    NavMeshAgent miAgente; //---Componente NavMesh Agent del NPC
+    Transform objetivo; //--- objetivo final
+
     Transform puntoNacimiento;
     Transform puntoFinal;
 
     public bool iniciar = false;
 
-    public float velocidad = 1;
-   
+    public float offset = 1; //distancia para considerar que llego al objetivo
+    int posicionActual = 0; //indice del nodo en el que esta
+
     void Start () {
+        if (miAgente == null) {
+            miAgente = this.gameObject.GetComponent<NavMeshAgent> ();
+        }
+
         GetComponent<Animator> ().SetBool ("controller_walk", true);
+
+        objetivo = puntoNacimiento;
     }
 
     void Update () {
-        if (iniciar == false) {
-            return;
-        }
+        // if (iniciar == false) {
+        //     return;
+        // }
 
-        transform.position += new Vector3 (0, 0, velocidad * Time.deltaTime);
+        miAgente.SetDestination (objetivo.position);
 
-        if (transform.position.z >= puntoFinal.position.z) {
-            velocidad *= -1;
-            transform.Rotate (0, 180, 0);
-        }
+        Vector3 distancia = objetivo.position - transform.position;
+        
+         if(distancia.magnitude <= offset) {  //se alcanzo el objetivo, cambiar de objetivo
+              
+              //Cambio de objetivo
+              if(posicionActual == 0 ) {
+                    posicionActual = 1;
+                    objetivo = puntoFinal;
+              } else if (posicionActual == 1) {
+                    posicionActual = 0;
+                    objetivo = puntoNacimiento;
+              }
+        
+             
+         }
 
-        if (transform.position.z <= puntoNacimiento.position.z) {
-            velocidad *= -1;
-            transform.Rotate (0, 180, 0);
-        }
 
     }
 
