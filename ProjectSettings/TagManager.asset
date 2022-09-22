@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - caja
+  - centro_caja
+  - centro_colisiones_caja
+  - gato
   layers:
   - Default
   - TransparentFX
@@ -11,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - rayos_gato
+  - gato
   - 
   - 
   - 
