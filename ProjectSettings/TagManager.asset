@@ -8,6 +8,7 @@ TagManager:
   - centro_caja
   - centro_colisiones_caja
   - gato
+  - puerta_caja
   layers:
   - Default
   - TransparentFX

@@ -2,10 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum Direccion {
+    Norte,
+    Sur,
+    Este,
+    Oeste
+}
+
+
 public class CajaControlador : MonoBehaviour {
 
-    Quaternion angulo_90 = Quaternion.Euler (0, 180, 0);
-    Quaternion angulo_0 = Quaternion.Euler (0, 90, 0);
+    Quaternion angulo_OESTE= Quaternion.Euler (0, 180, 0);
+    Quaternion angulo_SUR = Quaternion.Euler (0, 90, 0);
+    Direccion angulo_caja = Direccion.Sur;
+
     Quaternion angulo_deseado;
 
     public float velocidad_rotacion = 0.5f;
@@ -14,7 +25,8 @@ public class CajaControlador : MonoBehaviour {
 
     void Start () {
 
-        angulo_deseado = angulo_0;
+        angulo_deseado = angulo_SUR;
+        angulo_caja = Direccion.Sur;
 
     }
 
@@ -42,14 +54,19 @@ public class CajaControlador : MonoBehaviour {
                 
             }
         }
-        transform.rotation = Quaternion.Slerp (transform.rotation, angulo_deseado, Time.deltaTime * velocidad_rotacion);
+
+        transform.rotation = Quaternion.Lerp (transform.rotation, angulo_deseado, Time.deltaTime * velocidad_rotacion);
     }
 
     void CambiarAngulo () {
-        if (angulo_deseado.eulerAngles.y == angulo_0.eulerAngles.y) {
-            angulo_deseado = angulo_90;
+        //if (angulo_deseado.eulerAngles.y == angulo_0.eulerAngles.y) {
+
+        if (angulo_caja == Direccion.Sur){
+            angulo_caja = Direccion.Oeste;    
+            angulo_deseado = angulo_OESTE;
         } else {
-            angulo_deseado = angulo_0;
+            angulo_deseado = angulo_SUR;
+            angulo_caja = Direccion.Sur;    
         }
     }
 
