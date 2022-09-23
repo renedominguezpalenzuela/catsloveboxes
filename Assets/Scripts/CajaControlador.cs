@@ -3,19 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum Direccion {
-    Norte,
-    Sur,
-    Este,
-    Oeste
-}
 
 
 public class CajaControlador : MonoBehaviour {
 
     Quaternion angulo_OESTE= Quaternion.Euler (0, 180, 0);
     Quaternion angulo_SUR = Quaternion.Euler (0, 90, 0);
-    Direccion angulo_caja = Direccion.Sur;
+    public DireccionObjetos direccion_puerta_caja = DireccionObjetos.Sur;
 
     Quaternion angulo_deseado;
 
@@ -26,7 +20,7 @@ public class CajaControlador : MonoBehaviour {
     void Start () {
 
         angulo_deseado = angulo_SUR;
-        angulo_caja = Direccion.Sur;
+        direccion_puerta_caja = DireccionObjetos.Sur;
 
     }
 
@@ -61,12 +55,13 @@ public class CajaControlador : MonoBehaviour {
     void CambiarAngulo () {
         //if (angulo_deseado.eulerAngles.y == angulo_0.eulerAngles.y) {
 
-        if (angulo_caja == Direccion.Sur){
-            angulo_caja = Direccion.Oeste;    
+        if (direccion_puerta_caja == DireccionObjetos.Sur){
+            direccion_puerta_caja = DireccionObjetos.Oeste;    
             angulo_deseado = angulo_OESTE;
         } else {
+            
+            direccion_puerta_caja = DireccionObjetos.Sur;    
             angulo_deseado = angulo_SUR;
-            angulo_caja = Direccion.Sur;    
         }
     }
 

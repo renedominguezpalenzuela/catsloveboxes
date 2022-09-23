@@ -1316,6 +1316,10 @@ MonoBehaviour:
   posicionActual: 0
   origen_rayos: {fileID: 4977169825946963200}
   longitud_rayo: 4
+  punto_frente: {x: 0, y: 0, z: 0}
+  punto_detras: {x: 0, y: 0, z: 0}
+  forward_reference: {fileID: 0}
+  direccion_gato: 0
 --- !u!135 &4326078751749843590
 SphereCollider:
   m_ObjectHideFlags: 0
