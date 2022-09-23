@@ -29,12 +29,19 @@ public class GatoControlador : MonoBehaviour {
 
     Action accion = Action.Normal;
 
-    
-
     public Transform origen_rayos; //punto desde donde se original los rayos
-    public float longitud_rayo = 23f;
+   
+    float longitud_rayo = 2f;
 
     LayerMask mascara_colisiones;
+
+    public Vector3 punto_frente;
+    public Vector3 punto_detras;
+
+    float distance_punto_forward = 3f;
+    public Transform forward_reference;
+
+    public DireccionObjetos direccion_gato;
 
     void Start () {
         if (miAgente == null) {
@@ -54,55 +61,48 @@ public class GatoControlador : MonoBehaviour {
         //     return;
         // }
 
+        direccion_gato = calcular_direccion_gato ();
+
         //Vision frontal del gato
         RaycastHit hit;
 
         if (Physics.Raycast (origen_rayos.position, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
-            // Debug.Log("Algo Encontrado");
-            // Debug.Log("TAG: "+hit.transform.tag);
 
             if (hit.transform.tag == "puerta_caja") {
-                Transform caja = hit.transform.gameObject.GetComponent<CajaPuerta> ().Caja;
-                float caja_angulo_y = Mathf.Abs (caja.eulerAngles.y);
-                float gato_angulo_y = Mathf.Abs (transform.rotation.eulerAngles.y);
-                  Debug.Log ("Puerta encontrada"  );
-                  Debug.Log("caja_angulo_y "+caja_angulo_y);
-                  Debug.Log("gato_angulo_y "+gato_angulo_y);
 
-                //Caja orientada hacia el W, el gato va hacia el este  
-                if (caja_angulo_y == 180 && gato_angulo_y < 20) {
+                DireccionObjetos direccion_puerta_caja = hit.transform.gameObject.GetComponent<CajaPuerta>().direccion_puerta_caja;
+
+                Debug.Log ("Puerta encontrada");
+
+                if (direccionGatoCajaOK (direccion_gato, direccion_puerta_caja)) {
                     Transform Centro_Caja = hit.transform.gameObject.GetComponent<CajaPuerta> ().Centro_Caja;
+
                     Debug.Log ("Puerta direccion correcta ");
                     accion = Action.FoundBox;
                     punto_destino_anterior = punto_destino;
                     punto_destino = Centro_Caja;
-
+                
                 }
 
             }
 
         } else {
 
-          // punto_destino =  punto_destino_anterior;
-           accion = Action.Normal;
+            // punto_destino =  punto_destino_anterior;
+            accion = Action.Normal;
 
         }
-
-  
-
 
         if (punto_destino == null) {
             return;
         }
 
-    
         //Movimiento
         miAgente.SetDestination (punto_destino.position);
-                  //Calculo de distancia
+        //Calculo de distancia
         distancia = punto_destino.position - transform.position;
-        distanciaAbs = Mathf.Abs(distancia.magnitude);
+        distanciaAbs = Mathf.Abs (distancia.magnitude);
 
-     
         //Determinar accion a ejecutar
         switch (accion) {
             case Action.Normal:
@@ -136,8 +136,6 @@ public class GatoControlador : MonoBehaviour {
     //-------------------------------------------------------------------------------------------
     private void AccionNormal () {
 
-   
-        
         if (distanciaAbs <= offset) { //se alcanzo el punto_destino, cambiar de punto_destino
 
             //Cambio de punto_destino
@@ -162,5 +160,48 @@ public class GatoControlador : MonoBehaviour {
     //     punto_destino = pDestino;
     //     accion = Action.FoundBox;
     // }
+
+    //---------------------------------------------------------------------------------------------
+    // Calculo de direccion del gato
+    // solo valido si puntos de inicio y fin estan correctamente alineados en Z o X 
+    // Version mejor calcula el angulo de forward con respecto al eje Z (Este) del universo
+    //--------------------------------------------------------------------------------------------
+    private DireccionObjetos calcular_direccion_gato () {
+        punto_frente = transform.position + transform.forward * distance_punto_forward;
+        punto_detras = transform.position;
+
+        float distancia = distance_punto_forward - 1;
+
+        direccion_gato = DireccionObjetos.Este;
+
+        if ((punto_frente.z - punto_detras.z) > distancia) {
+            direccion_gato = DireccionObjetos.Este;
+        }
+
+        if ((punto_detras.z - punto_frente.z) > distancia) {
+            direccion_gato = DireccionObjetos.Oeste;
+        }
+
+        if ((punto_frente.x - punto_detras.x) > distancia) {
+            direccion_gato = DireccionObjetos.Sur;
+        }
+
+        if ((punto_detras.x - punto_frente.x) > distancia) {
+            direccion_gato = DireccionObjetos.Norte;
+        }
+
+        return direccion_gato;
+
+    }
+
+    public bool direccionGatoCajaOK (DireccionObjetos dir_gato, DireccionObjetos dir_caja) {
+
+        if (dir_caja == DireccionObjetos.Oeste && dir_gato == DireccionObjetos.Este) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 
 }
