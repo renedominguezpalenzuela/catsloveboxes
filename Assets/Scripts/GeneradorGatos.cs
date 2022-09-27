@@ -10,10 +10,9 @@ public class GeneradorGatos : MonoBehaviour {
      [SerializeField] //asignar en el inspector el prefab
      private GameObject gato;
 
-     [SerializeField]
-     private float gatoRespawnTime = 3.5f;
+     private float gatoRespawnTime =25f;
 
-     [SerializeField]
+     
      private int totalGatosVivosPermitidos = 1;
      int totalGatosVivos = 0;
 
@@ -32,7 +31,7 @@ public class GeneradorGatos : MonoBehaviour {
           }
 
           if (gato != null) {
-               //StartCoroutine (spawnNPC (1, gato, false)); //un solo gato al cabo de 1 segundo
+               StartCoroutine (spawnNPC (1, gato, false)); //un solo gato al cabo de 1 segundo
                StartCoroutine (spawnNPC (gatoRespawnTime, gato, true));
           } else {
                Debug.Log ("ERROR: Debe asignar un prefab de gato al Generador de Gatos");
