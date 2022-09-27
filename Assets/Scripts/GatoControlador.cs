@@ -31,7 +31,7 @@ public class GatoControlador : MonoBehaviour {
     public Action accion = Action.Normal;
 
     public Transform origen_rayos; //punto desde donde se original los rayos
-                                   //debe ubicarse detras del gato
+                                   //debe ubicarse detras del gato si queda dentro del collider no se detecta colsion
     float longitud_rayo = 10f;
 
     LayerMask mascara_colisiones;
