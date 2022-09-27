@@ -32,7 +32,7 @@ public class GatoControlador : MonoBehaviour {
 
     public Transform origen_rayos; //punto desde donde se original los rayos
                                    //debe ubicarse detras del gato
-    float longitud_rayo = 7f;
+    float longitud_rayo = 10f;
 
     LayerMask mascara_colisiones;
 
@@ -87,7 +87,7 @@ public class GatoControlador : MonoBehaviour {
 
         //-------------- SENSORES -----------------------------------------------------------------------------------  
         //if (Physics.Raycast (origen_rayos.position, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
-            if (Physics.SphereCast (origen_rayos.position, 1, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
+            if (Physics.SphereCast (origen_rayos.position, 0.4f, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
 
             if (hit.collider) {
 
@@ -140,7 +140,19 @@ public class GatoControlador : MonoBehaviour {
                 {
                     if (cambio_accion) {
                         Debug.Log ("Cambio accion a FoundBox  ");
-                        punto_destino_anterior = punto_destino;
+                        //punto_destino_anterior = punto_destino;
+
+                         if (posicionActual == 0) {
+                           
+                            punto_destino_anterior = puntoNacimiento ;
+                           
+
+                        } else if (posicionActual == 1) {
+                         
+                            punto_destino_anterior = puntoFinal;
+                         
+                        }
+
                         cambio_accion = false;
                     }
                     punto_destino = Centro_Caja;
@@ -154,16 +166,18 @@ public class GatoControlador : MonoBehaviour {
                     if (cambio_accion) {
                         Debug.Log ("Ejecutanfo Cambio a Normal");
 
-                        if (posicionActual == 0) {
-                            posicionActual = 1;
-                            punto_destino_anterior = puntoNacimiento;
-                            punto_destino = puntoFinal;
+                        punto_destino = punto_destino_anterior;
 
-                        } else if (posicionActual == 1) {
-                            posicionActual = 0;
-                            punto_destino = puntoNacimiento;
-                            punto_destino_anterior = puntoFinal;
-                        }
+                        // if (posicionActual == 0) {
+                        //     posicionActual = 1;
+                        //     punto_destino_anterior = puntoNacimiento;
+                        //     punto_destino = puntoFinal;
+
+                        // } else if (posicionActual == 1) {
+                        //     posicionActual = 0;
+                        //     punto_destino_anterior = puntoFinal;
+                        //     punto_destino = puntoNacimiento;                            
+                        // }
 
                         cambio_accion = false;
                     } else {
