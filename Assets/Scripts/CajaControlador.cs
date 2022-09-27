@@ -13,7 +13,7 @@ public class CajaControlador : MonoBehaviour {
 
     Quaternion angulo_deseado;
 
-    public float velocidad_rotacion = 0.5f;
+    float velocidad_rotacion = 5f;
 
     Touch toque;
 

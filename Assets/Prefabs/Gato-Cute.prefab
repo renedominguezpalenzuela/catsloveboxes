@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &54875117284042839
+--- !u!1 &21628561416520297
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,706 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4977169825946963200}
-  - component: {fileID: 3579265076613244781}
-  - component: {fileID: 5626701489937366910}
-  m_Layer: 0
-  m_Name: origen_rayos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4977169825946963200
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54875117284042839}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.27, z: 1.31}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_Children: []
-  m_Father: {fileID: 7043110360613917333}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3579265076613244781
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54875117284042839}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5626701489937366910
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54875117284042839}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &74357277602489314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3561675134902764430}
-  m_Layer: 0
-  m_Name: CatGirl2:Head_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3561675134902764430
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74357277602489314}
-  m_LocalRotation: {x: -0.124599665, y: -0.1781306, z: 0.017253304, w: 0.9759338}
-  m_LocalPosition: {x: -0.10834202, y: -5.6019467e-11, z: -6.692316e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4966355257189320235}
-  - {fileID: 1560275020994414973}
-  - {fileID: 2271660026259157569}
-  - {fileID: 8581893099006358672}
-  - {fileID: 5740744963377417422}
-  - {fileID: 8341609388897040040}
-  - {fileID: 1825491570497827719}
-  - {fileID: 250486134327968751}
-  - {fileID: 8018718296642523039}
-  - {fileID: 8949188552456257276}
-  m_Father: {fileID: 1129973833827340369}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &94929907123323621
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1129973833827340369}
-  m_Layer: 0
-  m_Name: CatGirl2:NeckPart2_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1129973833827340369
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94929907123323621}
-  m_LocalRotation: {x: -0.14377166, y: -9.653629e-11, z: -6.398291e-11, w: 0.9896109}
-  m_LocalPosition: {x: -0.10834202, y: -7.274696e-11, z: -4.8215515e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3561675134902764430}
-  m_Father: {fileID: 4195872530506860739}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &457465795500044766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1560275020994414973}
-  m_Layer: 0
-  m_Name: CatGirl2:bn_L_up
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1560275020994414973
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457465795500044766}
-  m_LocalRotation: {x: 0.9780694, y: -0.20827927, z: 9.419407e-17, w: -4.2546743e-17}
-  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: 0.13307703}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5433670495743261943}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &537743943294220745
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8581893099006358672}
-  m_Layer: 0
-  m_Name: CatGirl2:bn_R_up
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8581893099006358672
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537743943294220745}
-  m_LocalRotation: {x: 0.9780694, y: -0.20827927, z: 9.419407e-17, w: -4.2546743e-17}
-  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: -0.13307703}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2487222218643706202}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &613336611021764234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9062914695109840047}
-  m_Layer: 0
-  m_Name: CatGirl2:EarEnd_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9062914695109840047
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613336611021764234}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15271832, y: -6.2450045e-17, z: 1.6653345e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5740744963377417422}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1178378883520713534
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2147896690310010609}
-  m_Layer: 0
-  m_Name: CatGirl2:backHip_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2147896690310010609
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178378883520713534}
-  m_LocalRotation: {x: -0.11987239, y: 0.08031221, z: -0.51583886, w: 0.8444471}
-  m_LocalPosition: {x: -0.2302437, y: -2.220446e-16, z: 1.3045121e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4399790899306456589}
-  m_Father: {fileID: 1507677610200684664}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1322745500528805858
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4222123751124778316}
-  - component: {fileID: 5128370573939299789}
-  m_Layer: 0
-  m_Name: CatGirl2:eye_R009
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4222123751124778316
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322745500528805858}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1309202969350119411}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &5128370573939299789
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322745500528805858}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8748892135801146194, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -6386418776103758313, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
-  m_Bones:
-  - {fileID: 3561675134902764430}
-  - {fileID: 8949188552456257276}
-  - {fileID: 1825491570497827719}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 3561675134902764430}
-  m_AABB:
-    m_Center: {x: -0.1680701, y: 0.27116418, z: 0.12993518}
-    m_Extent: {x: 0.15380658, y: 0.13736862, z: 0.13639548}
-  m_DirtyAABB: 0
---- !u!1 &1657868888793692528
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7662296737664508385}
-  m_Layer: 0
-  m_Name: CatGirl2:frontHip_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7662296737664508385
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657868888793692528}
-  m_LocalRotation: {x: 0.91398776, y: -0.40258828, z: -0.01358255, w: 0.048626605}
-  m_LocalPosition: {x: 0.16727957, y: -5.551115e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2920110126882935784}
-  m_Father: {fileID: 3343802970071135727}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1853941276557230809
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7803780025961050102}
-  m_Layer: 0
-  m_Name: CatGirl2:backBall_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7803780025961050102
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853941276557230809}
-  m_LocalRotation: {x: -0.0072016604, y: -0.07751381, z: -0.09222894, w: 0.9926901}
-  m_LocalPosition: {x: 0.08374327, y: 0.09845071, z: 0.01468897}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3777951914813100145}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1866220434684724109
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8253753785876069285}
-  m_Layer: 0
-  m_Name: CatGirl2:JawEnd_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8253753785876069285
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866220434684724109}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2291931, y: 2.220446e-16, z: -1.5236044e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8949188552456257276}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2108268509688975877
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3832176230587908788}
-  m_Layer: 0
-  m_Name: CatGirl2:Tail5_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3832176230587908788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108268509688975877}
-  m_LocalRotation: {x: -0.0894476, y: -0.057872597, z: 0.14505553, w: 0.9836711}
-  m_LocalPosition: {x: -0.10350943, y: -9.992007e-16, z: -1.110223e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3545044949898794473}
-  m_Father: {fileID: 5614996368899235732}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2154547860259186424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2271660026259157569}
-  m_Layer: 0
-  m_Name: CatGirl2:bn_R_d
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2271660026259157569
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2154547860259186424}
-  m_LocalRotation: {x: -0.5513491, y: 0.8342747, z: -8.484499e-17, w: -1.7324198e-17}
-  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: -0.13307703}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2140143044293216911}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2241800102495912999
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3645426834111441405}
-  m_Layer: 0
-  m_Name: CatGirl2:backKnee_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3645426834111441405
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2241800102495912999}
-  m_LocalRotation: {x: -0.017552022, y: -0.22834359, z: 0.5862625, w: 0.7770762}
-  m_LocalPosition: {x: 0.2229518, y: 0, z: -1.0408341e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3777951914813100145}
-  m_Father: {fileID: 4091681889303053495}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2649033062345447060
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6006530752448624443}
-  m_Layer: 0
-  m_Name: CatGirl2:Eye_L_d
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6006530752448624443
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2649033062345447060}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.102215976, y: 0, z: -2.7755576e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4966355257189320235}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2692062318710229968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8164861450809528419}
-  m_Layer: 0
-  m_Name: CatGirl2:Root_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8164861450809528419
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2692062318710229968}
-  m_LocalRotation: {x: -0.705477, y: 0.018136095, z: 0.708359, w: -0.014170876}
-  m_LocalPosition: {x: -0.0027249118, y: 0.6260058, z: -0.35668862}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5333104405499929688}
-  - {fileID: 1837339416027283159}
-  - {fileID: 1507677610200684664}
-  - {fileID: 3809284079394199245}
-  m_Father: {fileID: 7043110360613917333}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2714173065822834287
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5433670495743261943}
-  m_Layer: 0
-  m_Name: CatGirl2:Eye_L_up
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5433670495743261943
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2714173065822834287}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11456462, y: 1.6653345e-16, z: 2.7755576e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1560275020994414973}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2909357144361604982
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4079134160409559159}
-  m_Layer: 0
-  m_Name: CatGirl2:Eye1_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4079134160409559159
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2909357144361604982}
-  m_LocalRotation: {x: -0.5007614, y: 0.5010212, z: 0.4992362, w: 0.498978}
-  m_LocalPosition: {x: -0.09740174, y: -8.881784e-16, z: -4.052314e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1825491570497827719}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3034300312370751156
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1995240855767484470}
-  m_Layer: 0
-  m_Name: CatGirl2:frontBall_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1995240855767484470
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3034300312370751156}
-  m_LocalRotation: {x: -0.000012905838, y: -0.05839521, z: -0.00022063135, w: 0.9982935}
-  m_LocalPosition: {x: -0.067979544, y: -0.11445813, z: -0.011973784}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1677874796951200743}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3150586887212605310
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4399790899306456589}
+  - component: {fileID: 6221160871174102858}
   m_Layer: 0
   m_Name: CatGirl2:backKnee_R
   m_TagString: Untagged
@@ -715,22 +16,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4399790899306456589
+--- !u!4 &6221160871174102858
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3150586887212605310}
+  m_GameObject: {fileID: 21628561416520297}
   m_LocalRotation: {x: -0.008032346, y: -0.2042713, z: 0.5408174, w: 0.81591994}
   m_LocalPosition: {x: -0.2229518, y: 1.110223e-16, z: 6.938894e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 838288028798428658}
-  m_Father: {fileID: 2147896690310010609}
+  - {fileID: 7561513819680012441}
+  m_Father: {fileID: 5588802715963906304}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3157976066695778977
+--- !u!1 &360530306091835097
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -738,30 +39,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5333104405499929688}
+  - component: {fileID: 3369423045254803407}
   m_Layer: 0
-  m_Name: CatGirl2:BackA_M
+  m_Name: CatGirl2:Ear_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5333104405499929688
+--- !u!4 &3369423045254803407
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3157976066695778977}
-  m_LocalRotation: {x: -0.008273874, y: 0.0060135545, z: -0.06738608, w: 0.9976745}
-  m_LocalPosition: {x: -0.24988712, y: 0.011293646, z: 4.510281e-17}
+  m_GameObject: {fileID: 360530306091835097}
+  m_LocalRotation: {x: 0.18497446, y: 0.35176933, z: 0.8992963, w: -0.18250765}
+  m_LocalPosition: {x: -0.27981225, y: -0.07800656, z: 0.27121276}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8704507784777593555}
-  m_Father: {fileID: 8164861450809528419}
-  m_RootOrder: 0
+  - {fileID: 3515654420214583248}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3214888173984898630
+--- !u!1 &392991477041803386
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -769,162 +70,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8949188552456257276}
-  m_Layer: 0
-  m_Name: CatGirl2:Jaw_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8949188552456257276
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3214888173984898630}
-  m_LocalRotation: {x: -0.08365693, y: 0.025427539, z: -0.7473231, w: 0.658683}
-  m_LocalPosition: {x: 0.028717585, y: 0.20593843, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8253753785876069285}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3308829065723313135
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1507677610200684664}
-  m_Layer: 0
-  m_Name: CatGirl2:Rump_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1507677610200684664
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3308829065723313135}
-  m_LocalRotation: {x: -0.056670446, y: -0.03520148, z: -0.6956052, w: 0.71532}
-  m_LocalPosition: {x: 0.058808807, y: 0.06036346, z: -0.13602951}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2147896690310010609}
-  m_Father: {fileID: 8164861450809528419}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3337039797797346155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3343802970071135727}
-  m_Layer: 0
-  m_Name: CatGirl2:Scapula_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3343802970071135727
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3337039797797346155}
-  m_LocalRotation: {x: 0.056823805, y: -0.10579262, z: 0.90457827, w: 0.40904412}
-  m_LocalPosition: {x: 0.038994603, y: 0.046614792, z: 0.13245545}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7662296737664508385}
-  m_Father: {fileID: 6662670432350614210}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3461326161483740702
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 661212078014627203}
-  m_Layer: 0
-  m_Name: CatGirl2:backBall_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &661212078014627203
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3461326161483740702}
-  m_LocalRotation: {x: -0.0072016604, y: -0.07751381, z: -0.09222894, w: 0.9926901}
-  m_LocalPosition: {x: -0.08374327, y: -0.09845071, z: -0.01468897}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 838288028798428658}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3467860792826597766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5614996368899235732}
-  m_Layer: 0
-  m_Name: CatGirl2:Tail4_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5614996368899235732
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3467860792826597766}
-  m_LocalRotation: {x: -0.089890264, y: -0.05787743, z: 0.17029177, w: 0.97957677}
-  m_LocalPosition: {x: -0.10347965, y: 1.4432899e-15, z: 5.551115e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3832176230587908788}
-  m_Father: {fileID: 7929615729548847522}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3506511722458294008
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4483244801457895718}
-  - component: {fileID: 3844120226276083663}
+  - component: {fileID: 2989311944954235798}
+  - component: {fileID: 2123792993735057228}
   m_Layer: 0
   m_Name: CatGirl2:eye_L009
   m_TagString: Untagged
@@ -932,27 +79,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4483244801457895718
+--- !u!4 &2989311944954235798
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3506511722458294008}
+  m_GameObject: {fileID: 392991477041803386}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1309202969350119411}
+  m_Father: {fileID: 578521190081447589}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &3844120226276083663
+--- !u!137 &2123792993735057228
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3506511722458294008}
+  m_GameObject: {fileID: 392991477041803386}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -992,16 +139,16 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 2426949808996940585, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
   m_Bones:
-  - {fileID: 3561675134902764430}
-  - {fileID: 8949188552456257276}
-  - {fileID: 250486134327968751}
+  - {fileID: 4816251240384096789}
+  - {fileID: 2965523743428032862}
+  - {fileID: 5777798421534875590}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 3561675134902764430}
+  m_RootBone: {fileID: 4816251240384096789}
   m_AABB:
     m_Center: {x: -0.1676784, y: 0.27036494, z: -0.15016282}
     m_Extent: {x: 0.1556222, y: 0.13656934, z: 0.1421304}
   m_DirtyAABB: 0
---- !u!1 &3541485989032369794
+--- !u!1 &823539466772430228
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1009,122 +156,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1122064606867472657}
+  - component: {fileID: 4115249663363771657}
   m_Layer: 0
-  m_Name: CatGirl2:Tail1_M
+  m_Name: CatGirl2:Eye1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1122064606867472657
+--- !u!4 &4115249663363771657
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3541485989032369794}
-  m_LocalRotation: {x: 0, y: -0, z: -0.096342005, w: 0.99534833}
-  m_LocalPosition: {x: -0.13688102, y: 4.440892e-16, z: 1.8214596e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1227781085044402205}
-  m_Father: {fileID: 3809284079394199245}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3582257960505479122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4997781963901652476}
-  m_Layer: 0
-  m_Name: CatGirl2:Neck_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4997781963901652476
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3582257960505479122}
-  m_LocalRotation: {x: -0.12224468, y: -0.07798616, z: 0.5960511, w: 0.7897452}
-  m_LocalPosition: {x: -0.0047268365, y: -0.09467698, z: 1.1518564e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4195872530506860739}
-  m_Father: {fileID: 6662670432350614210}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3922732068507891991
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 250486134327968751}
-  m_Layer: 0
-  m_Name: CatGirl2:Eye_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &250486134327968751
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3922732068507891991}
-  m_LocalRotation: {x: 0.83201015, y: -0.53225404, z: 0.10043513, w: 0.11990635}
-  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: -0.13307703}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7820442101686137900}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3962828831868324340
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2487222218643706202}
-  m_Layer: 0
-  m_Name: CatGirl2:Eye_R_up
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2487222218643706202
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3962828831868324340}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11456462, y: 1.6653345e-16, z: 2.7755576e-17}
+  m_GameObject: {fileID: 823539466772430228}
+  m_LocalRotation: {x: -0.5007614, y: 0.5010212, z: 0.4992362, w: 0.498978}
+  m_LocalPosition: {x: -0.09740174, y: -1.5543122e-15, z: -3.469447e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8581893099006358672}
+  m_Father: {fileID: 5777798421534875590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4397533576965929027
+--- !u!1 &1042048910523723035
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1132,60 +186,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2140143044293216911}
+  - component: {fileID: 7561513819680012441}
   m_Layer: 0
-  m_Name: CatGirl2:Eye_R_d
+  m_Name: CatGirl2:backAnkle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2140143044293216911
+--- !u!4 &7561513819680012441
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4397533576965929027}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.102215976, y: 0, z: -2.7755576e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2271660026259157569}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4427592409542055668
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1227781085044402205}
-  m_Layer: 0
-  m_Name: CatGirl2:Tail2_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1227781085044402205
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4427592409542055668}
-  m_LocalRotation: {x: -0.09190197, y: -0.053772863, z: 0.16823602, w: 0.97997916}
-  m_LocalPosition: {x: -0.10350943, y: 3.230613e-11, z: 6.505213e-17}
+  m_GameObject: {fileID: 1042048910523723035}
+  m_LocalRotation: {x: 0.18091302, y: 0.10468484, z: -0.08694257, w: 0.9740393}
+  m_LocalPosition: {x: -0.16971037, y: -2.220446e-16, z: -2.4286129e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7929615729548847522}
-  m_Father: {fileID: 1122064606867472657}
+  - {fileID: 5626778984681604039}
+  m_Father: {fileID: 6221160871174102858}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4631922343152983973
+--- !u!1 &1133067723838286825
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1193,7 +217,223 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1825491570497827719}
+  - component: {fileID: 3097986459929697718}
+  m_Layer: 0
+  m_Name: CatGirl2:Hair_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3097986459929697718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133067723838286825}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.37756816, y: -0.10163325, z: 1.491998e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1182860263598727454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2330790317048828148}
+  m_Layer: 0
+  m_Name: CatGirl2:Rump_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2330790317048828148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182860263598727454}
+  m_LocalRotation: {x: -0.056670446, y: -0.03520148, z: -0.6956052, w: 0.71532}
+  m_LocalPosition: {x: 0.058808807, y: 0.06036346, z: -0.13602951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5588802715963906304}
+  m_Father: {fileID: 4479474585764769279}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1374582210311173797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7589108416804226601}
+  m_Layer: 0
+  m_Name: CatGirl2:frontKnee_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7589108416804226601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374582210311173797}
+  m_LocalRotation: {x: 0, y: -0, z: -0.595845, w: 0.80309945}
+  m_LocalPosition: {x: -0.20470412, y: 5.551115e-17, z: -2.7755576e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1062308557290856881}
+  m_Father: {fileID: 762649700282147922}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1390104150380409375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8804080660750046591}
+  m_Layer: 0
+  m_Name: CatGirl2:frontHip_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8804080660750046591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390104150380409375}
+  m_LocalRotation: {x: 0.91398776, y: -0.40258828, z: -0.01358255, w: 0.048626605}
+  m_LocalPosition: {x: 0.16727957, y: -5.551115e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2132299180842500974}
+  m_Father: {fileID: 1765077659329449810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1556913184197290958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3806580266147512279}
+  m_Layer: 0
+  m_Name: CatGirl2:frontBall_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3806580266147512279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556913184197290958}
+  m_LocalRotation: {x: -0.000012905838, y: -0.05839521, z: -0.00022063135, w: 0.9982935}
+  m_LocalPosition: {x: -0.067979544, y: -0.11445813, z: -0.011973784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1062308557290856881}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1580428132918479287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578521190081447589}
+  m_Layer: 0
+  m_Name: CatGirl2:Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &578521190081447589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580428132918479287}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3280843956435451721}
+  - {fileID: 2989311944954235798}
+  - {fileID: 4542087492128777424}
+  m_Father: {fileID: 7074755238401421305}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1750043596022439789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4785934982963284973}
+  m_Layer: 0
+  m_Name: CatGirl2:Eye1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785934982963284973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750043596022439789}
+  m_LocalRotation: {x: -0.5007614, y: 0.5010212, z: 0.4992362, w: 0.498978}
+  m_LocalPosition: {x: -0.09740174, y: -8.881784e-16, z: -4.052314e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7856991343981353443}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1894292239295991105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7856991343981353443}
   m_Layer: 0
   m_Name: CatGirl2:Eye_L
   m_TagString: Untagged
@@ -1201,22 +441,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1825491570497827719
+--- !u!4 &7856991343981353443
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4631922343152983973}
+  m_GameObject: {fileID: 1894292239295991105}
   m_LocalRotation: {x: 0.82332754, y: -0.5481032, z: 0.094234414, w: 0.11328981}
   m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: 0.13307703}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4079134160409559159}
-  m_Father: {fileID: 3561675134902764430}
+  - {fileID: 4785934982963284973}
+  m_Father: {fileID: 4816251240384096789}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4700513207466085201
+--- !u!1 &1914469987343264027
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1224,11 +464,1078 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7043110360613917333}
-  - component: {fileID: 863827794668382752}
-  - component: {fileID: 6936583509761181652}
-  - component: {fileID: 4234440674486299721}
-  - component: {fileID: 4326078751749843590}
+  - component: {fileID: 1765077659329449810}
+  m_Layer: 0
+  m_Name: CatGirl2:Scapula_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765077659329449810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914469987343264027}
+  m_LocalRotation: {x: 0.056823805, y: -0.10579262, z: 0.90457827, w: 0.40904412}
+  m_LocalPosition: {x: 0.038994603, y: 0.046614792, z: 0.13245545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8804080660750046591}
+  m_Father: {fileID: 7476284210958231295}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1996314925415514180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040042920705513259}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail4_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1040042920705513259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996314925415514180}
+  m_LocalRotation: {x: -0.089890264, y: -0.05787743, z: 0.17029177, w: 0.97957677}
+  m_LocalPosition: {x: -0.10347965, y: 1.4432899e-15, z: 5.551115e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8979593853433682751}
+  m_Father: {fileID: 6803451997307932631}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2070807563318356920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5626778984681604039}
+  m_Layer: 0
+  m_Name: CatGirl2:backBall_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5626778984681604039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070807563318356920}
+  m_LocalRotation: {x: -0.0072016604, y: -0.07751381, z: -0.09222894, w: 0.9926901}
+  m_LocalPosition: {x: -0.08374327, y: -0.09845071, z: -0.01468897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7561513819680012441}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2192202531902756607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8979593853433682751}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail5_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8979593853433682751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2192202531902756607}
+  m_LocalRotation: {x: -0.0894476, y: -0.057872597, z: 0.14505553, w: 0.9836711}
+  m_LocalPosition: {x: -0.10350943, y: -9.992007e-16, z: -1.110223e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8908369616888067423}
+  m_Father: {fileID: 1040042920705513259}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2386243531919001966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7043453340840147630}
+  m_Layer: 0
+  m_Name: CatGirl2:bn_R_d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7043453340840147630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2386243531919001966}
+  m_LocalRotation: {x: -0.5513491, y: 0.8342747, z: -8.484499e-17, w: -1.7324198e-17}
+  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: -0.13307703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1782186506742355292}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2453087409515692524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 243585414010284698}
+  - component: {fileID: 4615442868918781145}
+  - component: {fileID: 7203409054829381824}
+  m_Layer: 0
+  m_Name: origen_rayos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &243585414010284698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453087409515692524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.51, z: -3.01}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 7074755238401421305}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4615442868918781145
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453087409515692524}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7203409054829381824
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453087409515692524}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2479283908302079695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6883154340987455936}
+  m_Layer: 0
+  m_Name: CatGirl2:bn_L_d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6883154340987455936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479283908302079695}
+  m_LocalRotation: {x: -0.5513491, y: 0.8342747, z: -8.484499e-17, w: -1.7324198e-17}
+  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: 0.13307703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3211896836554022844}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2527237447864382527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5254713573435791579}
+  m_Layer: 0
+  m_Name: CatGirl2:Neck_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5254713573435791579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2527237447864382527}
+  m_LocalRotation: {x: -0.12224468, y: -0.07798616, z: 0.5960511, w: 0.7897452}
+  m_LocalPosition: {x: -0.0047268365, y: -0.09467698, z: 1.1518564e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1568190805302186457}
+  m_Father: {fileID: 7476284210958231295}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2927285357800354434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1782186506742355292}
+  m_Layer: 0
+  m_Name: CatGirl2:Eye_R_d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1782186506742355292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2927285357800354434}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.102215976, y: 0, z: -2.7755576e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7043453340840147630}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2996009885424046239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010774135247435235}
+  m_Layer: 0
+  m_Name: CatGirl2:backBall_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2010774135247435235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2996009885424046239}
+  m_LocalRotation: {x: -0.0072016604, y: -0.07751381, z: -0.09222894, w: 0.9926901}
+  m_LocalPosition: {x: 0.08374327, y: 0.09845071, z: 0.01468897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6958051138735251340}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3024985823683472223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4479474585764769279}
+  m_Layer: 0
+  m_Name: CatGirl2:Root_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4479474585764769279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3024985823683472223}
+  m_LocalRotation: {x: -0.705477, y: 0.018136095, z: 0.708359, w: -0.014170876}
+  m_LocalPosition: {x: -0.0027249118, y: 0.6260058, z: -0.35668862}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3674853181337106698}
+  - {fileID: 5587188546217686336}
+  - {fileID: 2330790317048828148}
+  - {fileID: 3350566020793413304}
+  m_Father: {fileID: 7074755238401421305}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3092760507258446730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3771819705427097055}
+  m_Layer: 0
+  m_Name: CatGirl2:frontAnkle_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3771819705427097055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092760507258446730}
+  m_LocalRotation: {x: 0.94487727, y: 0.31386212, z: 0.046903934, w: -0.08060723}
+  m_LocalPosition: {x: 0.23106954, y: 1.6653345e-16, z: -1.110223e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3129943256698761328}
+  m_Father: {fileID: 2132299180842500974}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3414378462317795347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5441696605737718690}
+  m_Layer: 0
+  m_Name: CatGirl2:bn_R_up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5441696605737718690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3414378462317795347}
+  m_LocalRotation: {x: 0.9780694, y: -0.20827927, z: 9.419407e-17, w: -4.2546743e-17}
+  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: -0.13307703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 360940340778483026}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3665146616244148613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568190805302186457}
+  m_Layer: 0
+  m_Name: CatGirl2:NeckPart1_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1568190805302186457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3665146616244148613}
+  m_LocalRotation: {x: -0.14377166, y: -1.10752296e-10, z: -3.3867895e-11, w: 0.9896109}
+  m_LocalPosition: {x: -0.10834202, y: -8.3459545e-11, z: -2.5521835e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5793282132696334443}
+  m_Father: {fileID: 5254713573435791579}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3696300290242347068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6328438574813558527}
+  m_Layer: 0
+  m_Name: CatGirl2:Ear_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6328438574813558527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696300290242347068}
+  m_LocalRotation: {x: 0.09502816, y: -0.059701163, z: 0.13232596, w: 0.9848326}
+  m_LocalPosition: {x: -0.27981225, y: -0.07800656, z: -0.27121276}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3104041598129999152}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3696713254257028450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5587188546217686336}
+  m_Layer: 0
+  m_Name: CatGirl2:Rump_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5587188546217686336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696713254257028450}
+  m_LocalRotation: {x: 0.03244123, y: -0.045501556, z: 0.77156895, w: 0.63368654}
+  m_LocalPosition: {x: 0.058808807, y: 0.06036346, z: 0.13602951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7795192325276724078}
+  m_Father: {fileID: 4479474585764769279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3880525237964661606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129943256698761328}
+  m_Layer: 0
+  m_Name: CatGirl2:frontBall_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129943256698761328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3880525237964661606}
+  m_LocalRotation: {x: -0.000012905838, y: -0.05839521, z: -0.00022063135, w: 0.9982935}
+  m_LocalPosition: {x: 0.067979544, y: 0.11445813, z: 0.011973784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3771819705427097055}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4004738277961914195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7795192325276724078}
+  m_Layer: 0
+  m_Name: CatGirl2:backHip_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7795192325276724078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4004738277961914195}
+  m_LocalRotation: {x: -0.11641976, y: 0.08463493, z: -0.5418034, w: 0.82808965}
+  m_LocalPosition: {x: 0.2302437, y: 0, z: 1.2767565e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 532100265189166790}
+  m_Father: {fileID: 5587188546217686336}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4252198990558730878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469085253713081204}
+  m_Layer: 0
+  m_Name: CatGirl2:Eye_L_up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469085253713081204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252198990558730878}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.11456462, y: 1.6653345e-16, z: 2.7755576e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3597162567746614517}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4273548952664688603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197727871758512361}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail2_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197727871758512361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4273548952664688603}
+  m_LocalRotation: {x: -0.09190197, y: -0.053772863, z: 0.16823602, w: 0.97997916}
+  m_LocalPosition: {x: -0.10350943, y: 3.230613e-11, z: 6.505213e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6803451997307932631}
+  m_Father: {fileID: 597833180202931907}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4274369650505232428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2965523743428032862}
+  m_Layer: 0
+  m_Name: CatGirl2:Jaw_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2965523743428032862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274369650505232428}
+  m_LocalRotation: {x: -0.08365693, y: 0.025427539, z: -0.7473231, w: 0.658683}
+  m_LocalPosition: {x: 0.028717585, y: 0.20593843, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4578444813403775146}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4302672621182464083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 762649700282147922}
+  m_Layer: 0
+  m_Name: CatGirl2:frontHip_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &762649700282147922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302672621182464083}
+  m_LocalRotation: {x: 0.9021545, y: -0.42840523, z: -0.010001386, w: 0.04986155}
+  m_LocalPosition: {x: -0.16727957, y: 1.110223e-16, z: -2.7755576e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7589108416804226601}
+  m_Father: {fileID: 8094410250967652982}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4757293099006023108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5777798421534875590}
+  m_Layer: 0
+  m_Name: CatGirl2:Eye_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5777798421534875590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4757293099006023108}
+  m_LocalRotation: {x: 0.83201015, y: -0.53225404, z: 0.10043513, w: 0.11990635}
+  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: -0.13307703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4115249663363771657}
+  m_Father: {fileID: 4816251240384096789}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4828402707347481778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4578444813403775146}
+  m_Layer: 0
+  m_Name: CatGirl2:JawEnd_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4578444813403775146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828402707347481778}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2291931, y: 2.220446e-16, z: -1.5236044e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2965523743428032862}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4848892299405787943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132299180842500974}
+  m_Layer: 0
+  m_Name: CatGirl2:frontKnee_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2132299180842500974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848892299405787943}
+  m_LocalRotation: {x: 0, y: -0, z: -0.5649127, w: 0.82515067}
+  m_LocalPosition: {x: 0.20470412, y: 0, z: 3.330669e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3771819705427097055}
+  m_Father: {fileID: 8804080660750046591}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5239720189653163717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3350566020793413304}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail0_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3350566020793413304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5239720189653163717}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9673627, w: 0.25339568}
+  m_LocalPosition: {x: 0.22795825, y: -0.04563321, z: 9.8011876e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 597833180202931907}
+  m_Father: {fileID: 4479474585764769279}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5254268642022299795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597833180202931907}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail1_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597833180202931907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254268642022299795}
+  m_LocalRotation: {x: 0, y: -0, z: -0.096342005, w: 0.99534833}
+  m_LocalPosition: {x: -0.13688102, y: 4.440892e-16, z: 1.8214596e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 197727871758512361}
+  m_Father: {fileID: 3350566020793413304}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5309526984819227432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5793282132696334443}
+  m_Layer: 0
+  m_Name: CatGirl2:NeckPart2_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5793282132696334443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309526984819227432}
+  m_LocalRotation: {x: -0.14377166, y: -9.653629e-11, z: -6.398291e-11, w: 0.9896109}
+  m_LocalPosition: {x: -0.10834202, y: -7.274696e-11, z: -4.8215515e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4816251240384096789}
+  m_Father: {fileID: 1568190805302186457}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5474192959526455469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1130385407408390367}
+  m_Layer: 0
+  m_Name: CatGirl2:BackB_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1130385407408390367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5474192959526455469}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0362228, w: 0.99934375}
+  m_LocalPosition: {x: -0.18171749, y: 5.551115e-16, z: -5.2909066e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7476284210958231295}
+  m_Father: {fileID: 3674853181337106698}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6142970294473592283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 532100265189166790}
+  m_Layer: 0
+  m_Name: CatGirl2:backKnee_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &532100265189166790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142970294473592283}
+  m_LocalRotation: {x: -0.017552022, y: -0.22834359, z: 0.5862625, w: 0.7770762}
+  m_LocalPosition: {x: 0.2229518, y: 0, z: -1.0408341e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6958051138735251340}
+  m_Father: {fileID: 7795192325276724078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6415012611611866954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8908369616888067423}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail6_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8908369616888067423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6415012611611866954}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.10635384, y: -4.9960036e-16, z: -4.1232934e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8979593853433682751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6741153625276536319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3515654420214583248}
+  m_Layer: 0
+  m_Name: CatGirl2:EarEnd_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3515654420214583248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6741153625276536319}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.15271832, y: -6.2450045e-17, z: 1.6653345e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3369423045254803407}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6786813525043241320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3104041598129999152}
+  m_Layer: 0
+  m_Name: CatGirl2:EarEnd_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3104041598129999152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6786813525043241320}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15271832, y: -4.510281e-16, z: 2.220446e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6328438574813558527}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6877313919853911905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7074755238401421305}
+  - component: {fileID: 1145024691582955945}
+  - component: {fileID: 7404285547170372287}
+  - component: {fileID: 3340132024063025978}
+  - component: {fileID: 7057376327905397507}
   m_Layer: 7
   m_Name: Gato-Cute
   m_TagString: gato
@@ -1236,31 +1543,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7043110360613917333
+--- !u!4 &7074755238401421305
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700513207466085201}
+  m_GameObject: {fileID: 6877313919853911905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1309202969350119411}
-  - {fileID: 8164861450809528419}
-  - {fileID: 4977169825946963200}
+  - {fileID: 578521190081447589}
+  - {fileID: 4479474585764769279}
+  - {fileID: 243585414010284698}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &863827794668382752
+--- !u!95 &1145024691582955945
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700513207466085201}
+  m_GameObject: {fileID: 6877313919853911905}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
   m_Controller: {fileID: 9100000, guid: 5c58da242e3e70f46af640f094a0d2fc, type: 2}
@@ -1272,13 +1579,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!195 &6936583509761181652
+--- !u!195 &7404285547170372287
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700513207466085201}
+  m_GameObject: {fileID: 6877313919853911905}
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
@@ -1294,46 +1601,41 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &4234440674486299721
+--- !u!114 &3340132024063025978
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700513207466085201}
+  m_GameObject: {fileID: 6877313919853911905}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebf53ef5408ef4e439151dfb0e37b42f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   punto_destino: {fileID: 0}
-  distancia: {x: 0, y: 0, z: 0}
-  distanciaAbs: 0
+  punto_destino_anterior: {fileID: 0}
   puntoNacimiento: {fileID: 0}
   puntoFinal: {fileID: 0}
   iniciar: 0
-  offset: 0.8
   posicionActual: 0
-  origen_rayos: {fileID: 4977169825946963200}
-  longitud_rayo: 4
-  punto_frente: {x: 0, y: 0, z: 0}
-  punto_detras: {x: 0, y: 0, z: 0}
-  forward_reference: {fileID: 0}
+  accion: 0
+  origen_rayos: {fileID: 243585414010284698}
   direccion_gato: 0
---- !u!135 &4326078751749843590
+--- !u!135 &7057376327905397507
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700513207466085201}
+  m_GameObject: {fileID: 6877313919853911905}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.67
   m_Center: {x: 0, y: 0.84, z: 0.64}
---- !u!1 &4758189412578746133
+--- !u!1 &7111626844955651306
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1341,30 +1643,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1503671958544769869}
+  - component: {fileID: 4816251240384096789}
   m_Layer: 0
-  m_Name: CatGirl2:frontAnkle_L
+  m_Name: CatGirl2:Head_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1503671958544769869
+--- !u!4 &4816251240384096789
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4758189412578746133}
-  m_LocalRotation: {x: 0.94487727, y: 0.31386212, z: 0.046903934, w: -0.08060723}
-  m_LocalPosition: {x: 0.23106954, y: 1.6653345e-16, z: -1.110223e-16}
+  m_GameObject: {fileID: 7111626844955651306}
+  m_LocalRotation: {x: -0.124599665, y: -0.1781306, z: 0.017253304, w: 0.9759338}
+  m_LocalPosition: {x: -0.10834202, y: -5.6019467e-11, z: -6.692316e-11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2807723432050907789}
-  m_Father: {fileID: 2920110126882935784}
+  - {fileID: 6883154340987455936}
+  - {fileID: 3597162567746614517}
+  - {fileID: 7043453340840147630}
+  - {fileID: 5441696605737718690}
+  - {fileID: 3369423045254803407}
+  - {fileID: 6328438574813558527}
+  - {fileID: 7856991343981353443}
+  - {fileID: 5777798421534875590}
+  - {fileID: 3097986459929697718}
+  - {fileID: 2965523743428032862}
+  m_Father: {fileID: 5793282132696334443}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5037073973474120461
+--- !u!1 &7511168292551758070
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1372,30 +1683,61 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7982487233612300069}
+  - component: {fileID: 8094410250967652982}
   m_Layer: 0
-  m_Name: CatGirl2:frontKnee_R
+  m_Name: CatGirl2:Scapula_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7982487233612300069
+--- !u!4 &8094410250967652982
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5037073973474120461}
-  m_LocalRotation: {x: 0, y: -0, z: -0.595845, w: 0.80309945}
-  m_LocalPosition: {x: -0.20470412, y: 5.551115e-17, z: -2.7755576e-16}
+  m_GameObject: {fileID: 7511168292551758070}
+  m_LocalRotation: {x: -0.04175397, y: -0.047017872, z: -0.542805, w: 0.8375014}
+  m_LocalPosition: {x: 0.030135943, y: 0.065850765, z: -0.13218354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1677874796951200743}
-  m_Father: {fileID: 7515603967423413329}
+  - {fileID: 762649700282147922}
+  m_Father: {fileID: 7476284210958231295}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7551764413798559716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6803451997307932631}
+  m_Layer: 0
+  m_Name: CatGirl2:Tail3_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6803451997307932631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7551764413798559716}
+  m_LocalRotation: {x: -0.088676095, y: -0.053481545, z: 0.14110157, w: 0.9845642}
+  m_LocalPosition: {x: -0.10350943, y: -1.4988011e-15, z: 8.326673e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1040042920705513259}
+  m_Father: {fileID: 197727871758512361}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5129648451282524060
+--- !u!1 &7935912962860881097
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1403,254 +1745,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8341609388897040040}
-  m_Layer: 0
-  m_Name: CatGirl2:Ear_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8341609388897040040
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5129648451282524060}
-  m_LocalRotation: {x: 0.09502816, y: -0.059701163, z: 0.13232596, w: 0.9848326}
-  m_LocalPosition: {x: -0.27981225, y: -0.07800656, z: -0.27121276}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3523345365356949363}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5763980581647330283
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3809284079394199245}
-  m_Layer: 0
-  m_Name: CatGirl2:Tail0_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3809284079394199245
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5763980581647330283}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9673627, w: 0.25339568}
-  m_LocalPosition: {x: 0.22795825, y: -0.04563321, z: 9.8011876e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1122064606867472657}
-  m_Father: {fileID: 8164861450809528419}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5851530932781193016
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3545044949898794473}
-  m_Layer: 0
-  m_Name: CatGirl2:Tail6_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3545044949898794473
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5851530932781193016}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.10635384, y: -4.9960036e-16, z: -4.1232934e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3832176230587908788}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5857357823896330458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3777951914813100145}
-  m_Layer: 0
-  m_Name: CatGirl2:backAnkle_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3777951914813100145
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5857357823896330458}
-  m_LocalRotation: {x: 0.18838668, y: 0.12218141, z: -0.19957605, w: 0.953809}
-  m_LocalPosition: {x: 0.16971037, y: 5.551115e-17, z: 2.7755576e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7803780025961050102}
-  m_Father: {fileID: 3645426834111441405}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6005374921284631707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5740744963377417422}
-  m_Layer: 0
-  m_Name: CatGirl2:Ear_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5740744963377417422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6005374921284631707}
-  m_LocalRotation: {x: 0.18497446, y: 0.35176933, z: 0.8992963, w: -0.18250765}
-  m_LocalPosition: {x: -0.27981225, y: -0.07800656, z: 0.27121276}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 9062914695109840047}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6075057602944053491
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2920110126882935784}
-  m_Layer: 0
-  m_Name: CatGirl2:frontKnee_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2920110126882935784
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6075057602944053491}
-  m_LocalRotation: {x: 0, y: -0, z: -0.5649127, w: 0.82515067}
-  m_LocalPosition: {x: 0.20470412, y: 0, z: 3.330669e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1503671958544769869}
-  m_Father: {fileID: 7662296737664508385}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6143815645039171321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7820442101686137900}
-  m_Layer: 0
-  m_Name: CatGirl2:Eye1_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7820442101686137900
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6143815645039171321}
-  m_LocalRotation: {x: -0.5007614, y: 0.5010212, z: 0.4992362, w: 0.498978}
-  m_LocalPosition: {x: -0.09740174, y: -1.5543122e-15, z: -3.469447e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 250486134327968751}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6274443671683341919
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8704507784777593555}
-  m_Layer: 0
-  m_Name: CatGirl2:BackB_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8704507784777593555
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6274443671683341919}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0362228, w: 0.99934375}
-  m_LocalPosition: {x: -0.18171749, y: 5.551115e-16, z: -5.2909066e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6662670432350614210}
-  m_Father: {fileID: 5333104405499929688}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6362091903864440317
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4436908172894764991}
-  - component: {fileID: 4011323681142504391}
+  - component: {fileID: 3280843956435451721}
+  - component: {fileID: 7257610751199739140}
   m_Layer: 0
   m_Name: CatGirl2:cat_house1
   m_TagString: Untagged
@@ -1658,27 +1754,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4436908172894764991
+--- !u!4 &3280843956435451721
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6362091903864440317}
+  m_GameObject: {fileID: 7935912962860881097}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1309202969350119411}
+  m_Father: {fileID: 578521190081447589}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &4011323681142504391
+--- !u!137 &7257610751199739140
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6362091903864440317}
+  m_GameObject: {fileID: 7935912962860881097}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1718,63 +1814,63 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -517880092384796972, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
   m_Bones:
-  - {fileID: 8164861450809528419}
-  - {fileID: 5333104405499929688}
-  - {fileID: 8704507784777593555}
-  - {fileID: 6662670432350614210}
-  - {fileID: 4997781963901652476}
-  - {fileID: 4195872530506860739}
-  - {fileID: 1129973833827340369}
-  - {fileID: 3561675134902764430}
-  - {fileID: 8949188552456257276}
-  - {fileID: 8253753785876069285}
-  - {fileID: 250486134327968751}
-  - {fileID: 7820442101686137900}
-  - {fileID: 8018718296642523039}
-  - {fileID: 8341609388897040040}
-  - {fileID: 3523345365356949363}
-  - {fileID: 1825491570497827719}
-  - {fileID: 4079134160409559159}
-  - {fileID: 5740744963377417422}
-  - {fileID: 9062914695109840047}
-  - {fileID: 3908566707116776398}
-  - {fileID: 7515603967423413329}
-  - {fileID: 7982487233612300069}
-  - {fileID: 1677874796951200743}
-  - {fileID: 1995240855767484470}
-  - {fileID: 3343802970071135727}
-  - {fileID: 7662296737664508385}
-  - {fileID: 2920110126882935784}
-  - {fileID: 1503671958544769869}
-  - {fileID: 2807723432050907789}
-  - {fileID: 3809284079394199245}
-  - {fileID: 1122064606867472657}
-  - {fileID: 1227781085044402205}
-  - {fileID: 7929615729548847522}
-  - {fileID: 5614996368899235732}
-  - {fileID: 3832176230587908788}
-  - {fileID: 3545044949898794473}
-  - {fileID: 1507677610200684664}
-  - {fileID: 2147896690310010609}
-  - {fileID: 4399790899306456589}
-  - {fileID: 838288028798428658}
-  - {fileID: 661212078014627203}
-  - {fileID: 1837339416027283159}
-  - {fileID: 4091681889303053495}
-  - {fileID: 3645426834111441405}
-  - {fileID: 3777951914813100145}
-  - {fileID: 7803780025961050102}
-  - {fileID: 5433670495743261943}
-  - {fileID: 2487222218643706202}
-  - {fileID: 6006530752448624443}
-  - {fileID: 2140143044293216911}
+  - {fileID: 4479474585764769279}
+  - {fileID: 3674853181337106698}
+  - {fileID: 1130385407408390367}
+  - {fileID: 7476284210958231295}
+  - {fileID: 5254713573435791579}
+  - {fileID: 1568190805302186457}
+  - {fileID: 5793282132696334443}
+  - {fileID: 4816251240384096789}
+  - {fileID: 2965523743428032862}
+  - {fileID: 4578444813403775146}
+  - {fileID: 5777798421534875590}
+  - {fileID: 4115249663363771657}
+  - {fileID: 3097986459929697718}
+  - {fileID: 6328438574813558527}
+  - {fileID: 3104041598129999152}
+  - {fileID: 7856991343981353443}
+  - {fileID: 4785934982963284973}
+  - {fileID: 3369423045254803407}
+  - {fileID: 3515654420214583248}
+  - {fileID: 8094410250967652982}
+  - {fileID: 762649700282147922}
+  - {fileID: 7589108416804226601}
+  - {fileID: 1062308557290856881}
+  - {fileID: 3806580266147512279}
+  - {fileID: 1765077659329449810}
+  - {fileID: 8804080660750046591}
+  - {fileID: 2132299180842500974}
+  - {fileID: 3771819705427097055}
+  - {fileID: 3129943256698761328}
+  - {fileID: 3350566020793413304}
+  - {fileID: 597833180202931907}
+  - {fileID: 197727871758512361}
+  - {fileID: 6803451997307932631}
+  - {fileID: 1040042920705513259}
+  - {fileID: 8979593853433682751}
+  - {fileID: 8908369616888067423}
+  - {fileID: 2330790317048828148}
+  - {fileID: 5588802715963906304}
+  - {fileID: 6221160871174102858}
+  - {fileID: 7561513819680012441}
+  - {fileID: 5626778984681604039}
+  - {fileID: 5587188546217686336}
+  - {fileID: 7795192325276724078}
+  - {fileID: 532100265189166790}
+  - {fileID: 6958051138735251340}
+  - {fileID: 2010774135247435235}
+  - {fileID: 469085253713081204}
+  - {fileID: 360940340778483026}
+  - {fileID: 3211896836554022844}
+  - {fileID: 1782186506742355292}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 8164861450809528419}
+  m_RootBone: {fileID: 4479474585764769279}
   m_AABB:
     m_Center: {x: -0.39691657, y: -0.08034727, z: -0.03300965}
     m_Extent: {x: 1.2955563, y: 0.80459225, z: 0.57562333}
   m_DirtyAABB: 0
---- !u!1 &6784299467162088253
+--- !u!1 &8024974767633938157
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1782,30 +1878,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7515603967423413329}
+  - component: {fileID: 6958051138735251340}
   m_Layer: 0
-  m_Name: CatGirl2:frontHip_R
+  m_Name: CatGirl2:backAnkle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7515603967423413329
+--- !u!4 &6958051138735251340
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6784299467162088253}
-  m_LocalRotation: {x: 0.9021545, y: -0.42840523, z: -0.010001386, w: 0.04986155}
-  m_LocalPosition: {x: -0.16727957, y: 1.110223e-16, z: -2.7755576e-17}
+  m_GameObject: {fileID: 8024974767633938157}
+  m_LocalRotation: {x: 0.18838668, y: 0.12218141, z: -0.19957605, w: 0.953809}
+  m_LocalPosition: {x: 0.16971037, y: 5.551115e-17, z: 2.7755576e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7982487233612300069}
-  m_Father: {fileID: 3908566707116776398}
+  - {fileID: 2010774135247435235}
+  m_Father: {fileID: 532100265189166790}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6918326011931234051
+--- !u!1 &8135053467178170743
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1813,186 +1909,85 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4091681889303053495}
+  - component: {fileID: 4542087492128777424}
+  - component: {fileID: 1120797074786132679}
   m_Layer: 0
-  m_Name: CatGirl2:backHip_L
+  m_Name: CatGirl2:eye_R009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4091681889303053495
+--- !u!4 &4542087492128777424
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6918326011931234051}
-  m_LocalRotation: {x: -0.11641976, y: 0.08463493, z: -0.5418034, w: 0.82808965}
-  m_LocalPosition: {x: 0.2302437, y: 0, z: 1.2767565e-15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3645426834111441405}
-  m_Father: {fileID: 1837339416027283159}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6955794546535514356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1309202969350119411}
-  m_Layer: 0
-  m_Name: CatGirl2:Group
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1309202969350119411
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6955794546535514356}
+  m_GameObject: {fileID: 8135053467178170743}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4436908172894764991}
-  - {fileID: 4483244801457895718}
-  - {fileID: 4222123751124778316}
-  m_Father: {fileID: 7043110360613917333}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7326398844365266570
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4966355257189320235}
-  m_Layer: 0
-  m_Name: CatGirl2:bn_L_d
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4966355257189320235
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7326398844365266570}
-  m_LocalRotation: {x: -0.5513491, y: 0.8342747, z: -8.484499e-17, w: -1.7324198e-17}
-  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: 0.13307703}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6006530752448624443}
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7341797024594762451
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 838288028798428658}
-  m_Layer: 0
-  m_Name: CatGirl2:backAnkle_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &838288028798428658
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7341797024594762451}
-  m_LocalRotation: {x: 0.18091302, y: 0.10468484, z: -0.08694257, w: 0.9740393}
-  m_LocalPosition: {x: -0.16971037, y: -2.220446e-16, z: -2.4286129e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 661212078014627203}
-  m_Father: {fileID: 4399790899306456589}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7373446104035322443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3523345365356949363}
-  m_Layer: 0
-  m_Name: CatGirl2:EarEnd_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3523345365356949363
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7373446104035322443}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15271832, y: -4.510281e-16, z: 2.220446e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8341609388897040040}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7548878565012085633
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3908566707116776398}
-  m_Layer: 0
-  m_Name: CatGirl2:Scapula_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3908566707116776398
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7548878565012085633}
-  m_LocalRotation: {x: -0.04175397, y: -0.047017872, z: -0.542805, w: 0.8375014}
-  m_LocalPosition: {x: 0.030135943, y: 0.065850765, z: -0.13218354}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7515603967423413329}
-  m_Father: {fileID: 6662670432350614210}
+  m_Father: {fileID: 578521190081447589}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8094509168485305871
+--- !u!137 &1120797074786132679
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8135053467178170743}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8748892135801146194, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -6386418776103758313, guid: 617272d20ff7eee4fbc608a9dc39a515, type: 3}
+  m_Bones:
+  - {fileID: 4816251240384096789}
+  - {fileID: 2965523743428032862}
+  - {fileID: 7856991343981353443}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4816251240384096789}
+  m_AABB:
+    m_Center: {x: -0.1680701, y: 0.27116418, z: 0.12993518}
+    m_Extent: {x: 0.15380658, y: 0.13736862, z: 0.13639548}
+  m_DirtyAABB: 0
+--- !u!1 &8197959897533546018
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2000,68 +1995,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1677874796951200743}
-  m_Layer: 0
-  m_Name: CatGirl2:frontAnkle_R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1677874796951200743
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8094509168485305871}
-  m_LocalRotation: {x: 0.98171955, y: 0.16878301, z: 0.03613225, w: -0.08020901}
-  m_LocalPosition: {x: -0.23106954, y: 1.6653345e-16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1995240855767484470}
-  m_Father: {fileID: 7982487233612300069}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8227814003332630297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2807723432050907789}
-  m_Layer: 0
-  m_Name: CatGirl2:frontBall_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2807723432050907789
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8227814003332630297}
-  m_LocalRotation: {x: -0.000012905838, y: -0.05839521, z: -0.00022063135, w: 0.9982935}
-  m_LocalPosition: {x: 0.067979544, y: 0.11445813, z: 0.011973784}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1503671958544769869}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8502358358783400423
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6662670432350614210}
+  - component: {fileID: 7476284210958231295}
   m_Layer: 0
   m_Name: CatGirl2:Chest_M
   m_TagString: Untagged
@@ -2069,24 +2003,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6662670432350614210
+--- !u!4 &7476284210958231295
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8502358358783400423}
+  m_GameObject: {fileID: 8197959897533546018}
   m_LocalRotation: {x: -0.020691637, y: 0.016215572, z: -0.20874207, w: 0.9776174}
   m_LocalPosition: {x: -0.26640865, y: -0.008216749, z: 0.000045191413}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4997781963901652476}
-  - {fileID: 3343802970071135727}
-  - {fileID: 3908566707116776398}
-  m_Father: {fileID: 8704507784777593555}
+  - {fileID: 5254713573435791579}
+  - {fileID: 1765077659329449810}
+  - {fileID: 8094410250967652982}
+  m_Father: {fileID: 1130385407408390367}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8865461638270511408
+--- !u!1 &8319886908538450428
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2094,30 +2028,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1837339416027283159}
+  - component: {fileID: 3597162567746614517}
   m_Layer: 0
-  m_Name: CatGirl2:Rump_L
+  m_Name: CatGirl2:bn_L_up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1837339416027283159
+--- !u!4 &3597162567746614517
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8865461638270511408}
-  m_LocalRotation: {x: 0.03244123, y: -0.045501556, z: 0.77156895, w: 0.63368654}
-  m_LocalPosition: {x: 0.058808807, y: 0.06036346, z: 0.13602951}
+  m_GameObject: {fileID: 8319886908538450428}
+  m_LocalRotation: {x: 0.9780694, y: -0.20827927, z: 9.419407e-17, w: -4.2546743e-17}
+  m_LocalPosition: {x: -0.14793918, y: 0.23930778, z: 0.13307703}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4091681889303053495}
-  m_Father: {fileID: 8164861450809528419}
+  - {fileID: 469085253713081204}
+  m_Father: {fileID: 4816251240384096789}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8926623832747834789
+--- !u!1 &8454865107161877373
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2125,60 +2059,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4195872530506860739}
+  - component: {fileID: 360940340778483026}
   m_Layer: 0
-  m_Name: CatGirl2:NeckPart1_M
+  m_Name: CatGirl2:Eye_R_up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4195872530506860739
+--- !u!4 &360940340778483026
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8926623832747834789}
-  m_LocalRotation: {x: -0.14377166, y: -1.10752296e-10, z: -3.3867895e-11, w: 0.9896109}
-  m_LocalPosition: {x: -0.10834202, y: -8.3459545e-11, z: -2.5521835e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1129973833827340369}
-  m_Father: {fileID: 4997781963901652476}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9057584189280909893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8018718296642523039}
-  m_Layer: 0
-  m_Name: CatGirl2:Hair_M
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8018718296642523039
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9057584189280909893}
+  m_GameObject: {fileID: 8454865107161877373}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.37756816, y: -0.10163325, z: 1.491998e-15}
+  m_LocalPosition: {x: -0.11456462, y: 1.6653345e-16, z: 2.7755576e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3561675134902764430}
-  m_RootOrder: 8
+  m_Father: {fileID: 5441696605737718690}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9150866993946025937
+--- !u!1 &8513732113448215479
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2186,26 +2089,118 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7929615729548847522}
+  - component: {fileID: 3674853181337106698}
   m_Layer: 0
-  m_Name: CatGirl2:Tail3_M
+  m_Name: CatGirl2:BackA_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7929615729548847522
+--- !u!4 &3674853181337106698
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9150866993946025937}
-  m_LocalRotation: {x: -0.088676095, y: -0.053481545, z: 0.14110157, w: 0.9845642}
-  m_LocalPosition: {x: -0.10350943, y: -1.4988011e-15, z: 8.326673e-17}
+  m_GameObject: {fileID: 8513732113448215479}
+  m_LocalRotation: {x: -0.008273874, y: 0.0060135545, z: -0.06738608, w: 0.9976745}
+  m_LocalPosition: {x: -0.24988712, y: 0.011293646, z: 4.510281e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5614996368899235732}
-  m_Father: {fileID: 1227781085044402205}
+  - {fileID: 1130385407408390367}
+  m_Father: {fileID: 4479474585764769279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8631500857552446980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3211896836554022844}
+  m_Layer: 0
+  m_Name: CatGirl2:Eye_L_d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3211896836554022844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631500857552446980}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.102215976, y: 0, z: -2.7755576e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6883154340987455936}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8784690792035181117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062308557290856881}
+  m_Layer: 0
+  m_Name: CatGirl2:frontAnkle_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062308557290856881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784690792035181117}
+  m_LocalRotation: {x: 0.98171955, y: 0.16878301, z: 0.03613225, w: -0.08020901}
+  m_LocalPosition: {x: -0.23106954, y: 1.6653345e-16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3806580266147512279}
+  m_Father: {fileID: 7589108416804226601}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9213372108124001578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5588802715963906304}
+  m_Layer: 0
+  m_Name: CatGirl2:backHip_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5588802715963906304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9213372108124001578}
+  m_LocalRotation: {x: -0.11987239, y: 0.08031221, z: -0.51583886, w: 0.8444471}
+  m_LocalPosition: {x: -0.2302437, y: -2.220446e-16, z: 1.3045121e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6221160871174102858}
+  m_Father: {fileID: 2330790317048828148}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public enum Action {
     Normal,
@@ -14,34 +15,39 @@ public class GatoControlador : MonoBehaviour {
 
     NavMeshAgent miAgente; //---Componente NavMesh Agent del NPC
     public Transform punto_destino; //--- punto_destino final
-    public Vector3 distancia;
-    public float distanciaAbs = 0;
+    Vector3 distancia;
+    float distanciaAbs = 0;
 
-    Transform punto_destino_anterior;
+    public Transform punto_destino_anterior;
 
     public Transform puntoNacimiento;
     public Transform puntoFinal;
 
     public bool iniciar = false;
 
-    public float offset = 0.8f; //distancia para considerar que llego al punto_destino
+    float offset = 0.8f; //distancia para considerar que llego al punto_destino
     public int posicionActual = 0; //indice del nodo en el que esta
 
-    Action accion = Action.Normal;
+    public Action accion = Action.Normal;
 
     public Transform origen_rayos; //punto desde donde se original los rayos
-   
-    float longitud_rayo = 2f;
+                                   //debe ubicarse detras del gato
+    float longitud_rayo = 7f;
 
     LayerMask mascara_colisiones;
 
-    public Vector3 punto_frente;
-    public Vector3 punto_detras;
+    Vector3 punto_frente;
+    Vector3 punto_detras;
 
-    float distance_punto_forward = 3f;
-    public Transform forward_reference;
+    float distance_punto_forward = 2f;
+  
 
     public DireccionObjetos direccion_gato;
+
+
+    Text txtPuerta;
+    Text txtHittedTag;
+    Text txtPuertaDireccionOK;
 
     void Start () {
         if (miAgente == null) {
@@ -50,64 +56,122 @@ public class GatoControlador : MonoBehaviour {
 
         GetComponent<Animator> ().SetBool ("controller_walk", true);
 
-        punto_destino = puntoNacimiento;
+        punto_destino = puntoFinal;
         punto_destino_anterior = punto_destino;
 
         mascara_colisiones = LayerMask.GetMask ("rayos_gato");
+
+        txtPuerta = GameObject.Find ("txtPuertaEncontrada").GetComponent<Text> ();
+        txtHittedTag = GameObject.Find ("txtHittedTag").GetComponent<Text> ();
+
+        txtPuertaDireccionOK= GameObject.Find ("txtPuertaDireccionOK").GetComponent<Text> ();
+
     }
+
+    bool cambio_accion = false;
 
     void Update () {
         // if (iniciar == false) {
         //     return;
         // }
 
+        //saber cual es la direccion que tiene el gato: N,S,E,W
         direccion_gato = calcular_direccion_gato ();
+
+        bool puerta_vista = false;
+        bool puerta_direccion_ok = false;
 
         //Vision frontal del gato
         RaycastHit hit;
+        Transform Centro_Caja = null;
 
-        if (Physics.Raycast (origen_rayos.position, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
+        //-------------- SENSORES -----------------------------------------------------------------------------------  
+        //if (Physics.Raycast (origen_rayos.position, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
+            if (Physics.SphereCast (origen_rayos.position, 1, origen_rayos.forward, out hit, longitud_rayo, mascara_colisiones)) {
 
-            if (hit.transform.tag == "puerta_caja") {
+            if (hit.collider) {
 
-                DireccionObjetos direccion_puerta_caja = hit.transform.gameObject.GetComponent<CajaPuerta>().direccion_puerta_caja;
+                txtHittedTag.text = "Hited: " + hit.collider.gameObject.name;
 
-                Debug.Log ("Puerta encontrada");
+                if (hit.transform.tag == "puerta_caja") {
+                    puerta_vista = true;
 
-                if (direccionGatoCajaOK (direccion_gato, direccion_puerta_caja)) {
-                    Transform Centro_Caja = hit.transform.gameObject.GetComponent<CajaPuerta> ().Centro_Caja;
-
-                    Debug.Log ("Puerta direccion correcta ");
-                    accion = Action.FoundBox;
-                    punto_destino_anterior = punto_destino;
-                    punto_destino = Centro_Caja;
-                
+                    DireccionObjetos direccion_puerta_caja = hit.transform.gameObject.GetComponent<CajaPuerta> ().direccion_puerta_caja;
+                    puerta_direccion_ok = direccionGatoCajaOK (direccion_gato, direccion_puerta_caja);
+                    if (puerta_direccion_ok) {
+                        Centro_Caja = hit.transform.gameObject.GetComponent<CajaPuerta> ().Centro_Caja;
+                    }
                 }
-
+            } else {
+                txtHittedTag.text = "NO Hited ";
             }
 
+        }
+
+         txtPuerta.text = "Puerta Encontrada: " + puerta_vista;
+          txtPuertaDireccionOK.text = "Puerta Direccion OK: " + puerta_direccion_ok;
+
+      
+
+        //--------- Toma de Decision: determinar accion a realizar usando datos de sensores --------------------
+
+        //Debug.Log("Puerta "+puerta_vista);
+        //Debug.Log("Puerta DIR "+puerta_direccion_ok);
+
+       
+
+        if (puerta_vista && puerta_direccion_ok) {
+
+            if (accion != Action.FoundBox) {
+
+                cambio_accion = true;
+            }
+            accion = Action.FoundBox;
         } else {
 
-            // punto_destino =  punto_destino_anterior;
+            if (accion != Action.Normal) {
+                cambio_accion = true;
+            }
             accion = Action.Normal;
-
         }
 
-        if (punto_destino == null) {
-            return;
-        }
-
-        //Movimiento
-        miAgente.SetDestination (punto_destino.position);
-        //Calculo de distancia
-        distancia = punto_destino.position - transform.position;
-        distanciaAbs = Mathf.Abs (distancia.magnitude);
-
-        //Determinar accion a ejecutar
         switch (accion) {
+            case Action.FoundBox:
+                {
+                    if (cambio_accion) {
+                        Debug.Log ("Cambio accion a FoundBox  ");
+                        punto_destino_anterior = punto_destino;
+                        cambio_accion = false;
+                    }
+                    punto_destino = Centro_Caja;
+
+                    break;
+                }
+
             case Action.Normal:
                 {
-                    AccionNormal ();
+
+                    if (cambio_accion) {
+                        Debug.Log ("Ejecutanfo Cambio a Normal");
+
+                        if (posicionActual == 0) {
+                            posicionActual = 1;
+                            punto_destino_anterior = puntoNacimiento;
+                            punto_destino = puntoFinal;
+
+                        } else if (posicionActual == 1) {
+                            posicionActual = 0;
+                            punto_destino = puntoNacimiento;
+                            punto_destino_anterior = puntoFinal;
+                        }
+
+                        cambio_accion = false;
+                    } else {
+                        Debug.Log ("Ejecutando normal");
+                        AccionNormal ();
+
+                    }
+
                     break;
                 }
 
@@ -118,6 +182,40 @@ public class GatoControlador : MonoBehaviour {
 
         }
 
+        //---------  Ejecutar acciones ------------------------------------------------------------------------
+
+        if (punto_destino == null) {
+            Debug.Log ("Punto Destino null");
+            return;
+        }
+
+        //Movimiento
+        miAgente.SetDestination (punto_destino.position);
+
+    }
+
+    //-------------------------------------------------------------------------------------------
+    // Camina entre dos puntos
+    //-------------------------------------------------------------------------------------------
+    private void AccionNormal () {
+
+        //Calculo de distancia
+        distancia = punto_destino.position - transform.position;
+        distanciaAbs = Mathf.Abs (distancia.magnitude);
+
+        if (distanciaAbs <= offset) { //se alcanzo el punto_destino, cambiar de punto_destino
+            //puede_cambiar_accion = true;
+            //Cambio de punto_destino
+            if (posicionActual == 0) {
+                posicionActual = 1;
+                punto_destino = puntoFinal;
+
+            } else if (posicionActual == 1) {
+                posicionActual = 0;
+                punto_destino = puntoNacimiento;
+            }
+
+        }
     }
 
     //--------------------------------------------------------------------------------------------------------
@@ -131,28 +229,12 @@ public class GatoControlador : MonoBehaviour {
 
     }
 
-    //-------------------------------------------------------------------------------------------
-    // Camina entre dos puntos
-    //-------------------------------------------------------------------------------------------
-    private void AccionNormal () {
-
-        if (distanciaAbs <= offset) { //se alcanzo el punto_destino, cambiar de punto_destino
-
-            //Cambio de punto_destino
-            if (posicionActual == 0) {
-                posicionActual = 1;
-                punto_destino = puntoFinal;
-            } else if (posicionActual == 1) {
-                posicionActual = 0;
-                punto_destino = puntoNacimiento;
-            }
-
-        }
-    }
-
     void OnDrawGizmos () {
         Gizmos.color = Color.blue;
+
         Gizmos.DrawRay (origen_rayos.position, origen_rayos.forward * longitud_rayo);
+
+        //         Gizmos.DrawSphere(origen_rayos.position, longitud_rayo);
     }
 
     // public void setDestino (Transform pDestino) {
@@ -197,8 +279,10 @@ public class GatoControlador : MonoBehaviour {
     public bool direccionGatoCajaOK (DireccionObjetos dir_gato, DireccionObjetos dir_caja) {
 
         if (dir_caja == DireccionObjetos.Oeste && dir_gato == DireccionObjetos.Este) {
+
             return true;
         } else {
+
             return false;
         }
 
